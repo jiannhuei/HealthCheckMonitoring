@@ -1,0 +1,1031 @@
+2022-06-21 08:16:12.158 +08:00 [INF] Healthy
+2022-06-21 08:16:42.220 +08:00 [INF] Healthy
+2022-06-21 08:17:12.241 +08:00 [INF] Healthy
+2022-06-21 08:17:42.266 +08:00 [INF] Healthy
+2022-06-21 08:18:12.304 +08:00 [INF] Healthy
+2022-06-21 08:18:42.350 +08:00 [INF] Healthy
+2022-06-21 08:19:12.373 +08:00 [INF] Healthy
+2022-06-21 08:19:42.388 +08:00 [INF] Healthy
+2022-06-21 08:20:12.418 +08:00 [INF] Healthy
+2022-06-21 08:20:42.449 +08:00 [INF] Healthy
+2022-06-21 08:21:12.475 +08:00 [INF] Healthy
+2022-06-21 08:21:42.511 +08:00 [INF] Healthy
+2022-06-21 08:22:12.549 +08:00 [INF] Healthy
+2022-06-21 08:22:42.591 +08:00 [INF] Healthy
+2022-06-21 08:23:12.631 +08:00 [INF] Healthy
+2022-06-21 08:23:42.688 +08:00 [INF] Healthy
+2022-06-21 08:24:12.718 +08:00 [INF] Healthy
+2022-06-21 08:24:42.741 +08:00 [INF] Healthy
+2022-06-21 08:25:12.768 +08:00 [INF] Healthy
+2022-06-21 08:25:42.812 +08:00 [INF] Healthy
+2022-06-21 08:26:12.843 +08:00 [INF] Healthy
+2022-06-21 08:26:42.879 +08:00 [INF] Healthy
+2022-06-21 08:27:12.906 +08:00 [INF] Healthy
+2022-06-21 08:27:42.928 +08:00 [INF] Healthy
+2022-06-21 08:28:12.952 +08:00 [INF] Healthy
+2022-06-21 08:28:42.969 +08:00 [INF] Healthy
+2022-06-21 08:29:13.006 +08:00 [INF] Healthy
+2022-06-21 08:29:43.032 +08:00 [INF] Healthy
+2022-06-21 08:30:13.070 +08:00 [INF] Healthy
+2022-06-21 08:30:43.103 +08:00 [INF] Healthy
+2022-06-21 08:31:13.127 +08:00 [INF] Healthy
+2022-06-21 08:31:43.149 +08:00 [INF] Healthy
+2022-06-21 08:32:13.174 +08:00 [INF] Healthy
+2022-06-21 08:32:43.195 +08:00 [INF] Healthy
+2022-06-21 08:33:13.230 +08:00 [INF] Healthy
+2022-06-21 08:33:43.255 +08:00 [INF] Healthy
+2022-06-21 08:34:13.274 +08:00 [INF] Healthy
+2022-06-21 08:34:43.294 +08:00 [INF] Healthy
+2022-06-21 08:35:13.319 +08:00 [INF] Healthy
+2022-06-21 08:35:43.343 +08:00 [INF] Healthy
+2022-06-21 08:36:13.366 +08:00 [INF] Healthy
+2022-06-21 08:36:43.394 +08:00 [INF] Healthy
+2022-06-21 08:37:13.430 +08:00 [INF] Healthy
+2022-06-21 08:37:43.456 +08:00 [INF] Healthy
+2022-06-21 08:38:13.481 +08:00 [INF] Healthy
+2022-06-21 08:38:43.513 +08:00 [INF] Healthy
+2022-06-21 08:39:13.540 +08:00 [INF] Healthy
+2022-06-21 08:39:43.571 +08:00 [INF] Healthy
+2022-06-21 08:40:13.592 +08:00 [INF] Healthy
+2022-06-21 08:40:43.623 +08:00 [INF] Healthy
+2022-06-21 08:41:18.449 +08:00 [INF] Healthy
+2022-06-21 08:42:29.251 +08:00 [INF] Healthy
+2022-06-21 08:42:59.273 +08:00 [INF] Healthy
+2022-06-21 08:43:29.289 +08:00 [INF] Healthy
+2022-06-21 08:43:59.307 +08:00 [INF] Healthy
+2022-06-21 08:44:29.325 +08:00 [INF] Healthy
+2022-06-21 08:44:59.347 +08:00 [INF] Healthy
+2022-06-21 08:45:29.378 +08:00 [INF] Healthy
+2022-06-21 08:45:59.407 +08:00 [INF] Healthy
+2022-06-21 08:46:48.950 +08:00 [ERR] System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|44_0()
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at HealthCheckMonitoringConsole.Worker.Get(String uri) in C:\Users\jiann\source\repos\HealthCheckMonitoringConsole\HealthCheckMonitoringConsole\Worker.cs:line 42
+   at HealthCheckMonitoringConsole.Worker.DoWork() in C:\Users\jiann\source\repos\HealthCheckMonitoringConsole\HealthCheckMonitoringConsole\Worker.cs:line 22
+2022-06-21 08:46:48.954 +08:00 [INF] Retry On Error
+2022-06-21 08:50:52.849 +08:00 [ERR] System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Span`1 buffer)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Span`1 buffer)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Security.SslStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.Read(Span`1 buffer)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at HealthCheckMonitoringConsole.Worker.Get(String uri) in C:\Users\jiann\source\repos\HealthCheckMonitoringConsole\HealthCheckMonitoringConsole\Worker.cs:line 54
+   at HealthCheckMonitoringConsole.Worker.DoWork() in C:\Users\jiann\source\repos\HealthCheckMonitoringConsole\HealthCheckMonitoringConsole\Worker.cs:line 22
+2022-06-21 08:50:52.882 +08:00 [INF] Retry On Error. Attempt : 1
+2022-06-21 08:50:53.195 +08:00 [ERR] System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Span`1 buffer)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Span`1 buffer)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Security.SslStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Stream.Read(Span`1 buffer)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at HealthCheckMonitoringConsole.Worker.Get(String uri) in C:\Users\jiann\source\repos\HealthCheckMonitoringConsole\HealthCheckMonitoringConsole\Worker.cs:line 54
+   at HealthCheckMonitoringConsole.Worker.DoWork() in C:\Users\jiann\source\repos\HealthCheckMonitoringConsole\HealthCheckMonitoringConsole\Worker.cs:line 22
+2022-06-21 08:50:53.199 +08:00 [INF] Retry On Error. Attempt : 2
+2022-06-21 08:50:53.319 +08:00 [INF] Retry On Error. Attempt : 3
+2022-06-21 08:51:24.442 +08:00 [INF] Healthy
+2022-06-21 08:52:13.841 +08:00 [ERR] System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|44_0()
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at HealthCheckMonitoringConsole.Worker.Get(String uri) in C:\Users\jiann\source\repos\HealthCheckMonitoringConsole\HealthCheckMonitoringConsole\Worker.cs:line 55
+   at HealthCheckMonitoringConsole.Worker.DoWork() in C:\Users\jiann\source\repos\HealthCheckMonitoringConsole\HealthCheckMonitoringConsole\Worker.cs:line 22
+2022-06-21 08:52:13.844 +08:00 [INF] Retry On Error. Attempt : 1
+2022-06-21 08:52:14.041 +08:00 [ERR] System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|44_0()
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at HealthCheckMonitoringConsole.Worker.Get(String uri) in C:\Users\jiann\source\repos\HealthCheckMonitoringConsole\HealthCheckMonitoringConsole\Worker.cs:line 55
+   at HealthCheckMonitoringConsole.Worker.DoWork() in C:\Users\jiann\source\repos\HealthCheckMonitoringConsole\HealthCheckMonitoringConsole\Worker.cs:line 22
+2022-06-21 08:52:14.045 +08:00 [INF] Retry On Error. Attempt : 2
+2022-06-21 08:52:14.226 +08:00 [ERR] System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|44_0()
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at HealthCheckMonitoringConsole.Worker.Get(String uri) in C:\Users\jiann\source\repos\HealthCheckMonitoringConsole\HealthCheckMonitoringConsole\Worker.cs:line 55
+   at HealthCheckMonitoringConsole.Worker.DoWork() in C:\Users\jiann\source\repos\HealthCheckMonitoringConsole\HealthCheckMonitoringConsole\Worker.cs:line 22
+2022-06-21 08:52:14.230 +08:00 [INF] Retry On Error. Attempt : 3
+2022-06-21 08:52:14.407 +08:00 [ERR] System.Net.WebException: An error occurred while sending the request.
+ ---> System.Net.Http.HttpRequestException: An error occurred while sending the request.
+ ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.<CheckUsabilityOnScavenge>g__ReadAheadWithZeroByteReadAsync|44_0()
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at HealthCheckMonitoringConsole.Worker.Get(String uri) in C:\Users\jiann\source\repos\HealthCheckMonitoringConsole\HealthCheckMonitoringConsole\Worker.cs:line 55
+   at HealthCheckMonitoringConsole.Worker.DoWork() in C:\Users\jiann\source\repos\HealthCheckMonitoringConsole\HealthCheckMonitoringConsole\Worker.cs:line 22
+2022-06-21 08:52:44.615 +08:00 [ERR] System.Net.WebException: No such host is known. (auth.publicbankgroup.com:443)
+ ---> System.Net.Http.HttpRequestException: No such host is known. (auth.publicbankgroup.com:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, ValueStopwatch stopwatch)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.HttpWebRequest.<>c__DisplayClass216_0.<<CreateHttpClient>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at HealthCheckMonitoringConsole.Worker.Get(String uri) in C:\Users\jiann\source\repos\HealthCheckMonitoringConsole\HealthCheckMonitoringConsole\Worker.cs:line 55
+   at HealthCheckMonitoringConsole.Worker.DoWork() in C:\Users\jiann\source\repos\HealthCheckMonitoringConsole\HealthCheckMonitoringConsole\Worker.cs:line 22
+2022-06-21 08:52:44.620 +08:00 [INF] Retry On Error. Attempt : 1
+2022-06-21 08:52:44.797 +08:00 [ERR] System.Net.WebException: No such host is known. (auth.publicbankgroup.com:443)
+ ---> System.Net.Http.HttpRequestException: No such host is known. (auth.publicbankgroup.com:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, ValueStopwatch stopwatch)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.HttpWebRequest.<>c__DisplayClass216_0.<<CreateHttpClient>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at HealthCheckMonitoringConsole.Worker.Get(String uri) in C:\Users\jiann\source\repos\HealthCheckMonitoringConsole\HealthCheckMonitoringConsole\Worker.cs:line 55
+   at HealthCheckMonitoringConsole.Worker.DoWork() in C:\Users\jiann\source\repos\HealthCheckMonitoringConsole\HealthCheckMonitoringConsole\Worker.cs:line 22
+2022-06-21 08:52:44.802 +08:00 [INF] Retry On Error. Attempt : 2
+2022-06-21 08:52:44.990 +08:00 [ERR] System.Net.WebException: No such host is known. (auth.publicbankgroup.com:443)
+ ---> System.Net.Http.HttpRequestException: No such host is known. (auth.publicbankgroup.com:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, ValueStopwatch stopwatch)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.HttpWebRequest.<>c__DisplayClass216_0.<<CreateHttpClient>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at HealthCheckMonitoringConsole.Worker.Get(String uri) in C:\Users\jiann\source\repos\HealthCheckMonitoringConsole\HealthCheckMonitoringConsole\Worker.cs:line 55
+   at HealthCheckMonitoringConsole.Worker.DoWork() in C:\Users\jiann\source\repos\HealthCheckMonitoringConsole\HealthCheckMonitoringConsole\Worker.cs:line 22
+2022-06-21 08:52:44.994 +08:00 [INF] Retry On Error. Attempt : 3
+2022-06-21 08:52:45.177 +08:00 [ERR] System.Net.WebException: No such host is known. (auth.publicbankgroup.com:443)
+ ---> System.Net.Http.HttpRequestException: No such host is known. (auth.publicbankgroup.com:443)
+ ---> System.Net.Sockets.SocketException (11001): No such host is known.
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, ValueStopwatch stopwatch)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Net.HttpWebRequest.<>c__DisplayClass216_0.<<CreateHttpClient>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.HttpWebRequest.SendRequest(Boolean async)
+   at System.Net.HttpWebRequest.GetResponse()
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetResponse()
+   at HealthCheckMonitoringConsole.Worker.Get(String uri) in C:\Users\jiann\source\repos\HealthCheckMonitoringConsole\HealthCheckMonitoringConsole\Worker.cs:line 55
+   at HealthCheckMonitoringConsole.Worker.DoWork() in C:\Users\jiann\source\repos\HealthCheckMonitoringConsole\HealthCheckMonitoringConsole\Worker.cs:line 22
+2022-06-21 08:53:15.290 +08:00 [INF] Healthy
+2022-06-21 08:53:45.307 +08:00 [INF] Healthy
+2022-06-21 08:54:15.325 +08:00 [INF] Healthy
+2022-06-21 08:54:45.352 +08:00 [INF] Healthy
+2022-06-21 08:55:15.373 +08:00 [INF] Healthy
+2022-06-21 08:55:45.402 +08:00 [INF] Healthy
+2022-06-21 08:56:15.418 +08:00 [INF] Healthy
+2022-06-21 08:56:45.449 +08:00 [INF] Healthy
+2022-06-21 08:57:15.492 +08:00 [INF] Healthy
+2022-06-21 08:57:45.527 +08:00 [INF] Healthy
+2022-06-21 08:58:15.551 +08:00 [INF] Healthy
+2022-06-21 08:58:45.578 +08:00 [INF] Healthy
+2022-06-21 08:59:15.600 +08:00 [INF] Healthy
+2022-06-21 08:59:45.631 +08:00 [INF] Healthy
+2022-06-21 09:00:15.657 +08:00 [INF] Healthy
+2022-06-21 09:00:45.685 +08:00 [INF] Healthy
+2022-06-21 09:01:15.707 +08:00 [INF] Healthy
+2022-06-21 09:01:45.726 +08:00 [INF] Healthy
+2022-06-21 09:02:15.756 +08:00 [INF] Healthy
+2022-06-21 09:02:45.787 +08:00 [INF] Healthy
+2022-06-21 09:03:15.812 +08:00 [INF] Healthy
+2022-06-21 09:03:45.851 +08:00 [INF] Healthy
+2022-06-21 09:04:15.886 +08:00 [INF] Healthy
+2022-06-21 09:04:45.920 +08:00 [INF] Healthy
+2022-06-21 09:05:15.955 +08:00 [INF] Healthy
+2022-06-21 09:05:45.972 +08:00 [INF] Healthy
+2022-06-21 09:06:15.992 +08:00 [INF] Healthy
+2022-06-21 09:06:46.013 +08:00 [INF] Healthy
+2022-06-21 09:07:16.036 +08:00 [INF] Healthy
+2022-06-21 09:07:46.059 +08:00 [INF] Healthy
+2022-06-21 09:08:16.087 +08:00 [INF] Healthy
+2022-06-21 09:08:46.119 +08:00 [INF] Healthy
+2022-06-21 09:09:16.139 +08:00 [INF] Healthy
+2022-06-21 09:09:46.158 +08:00 [INF] Healthy
+2022-06-21 09:10:16.192 +08:00 [INF] Healthy
+2022-06-21 09:10:46.219 +08:00 [INF] Healthy
+2022-06-21 09:11:16.234 +08:00 [INF] Healthy
+2022-06-21 09:11:46.257 +08:00 [INF] Healthy
+2022-06-21 09:12:16.286 +08:00 [INF] Healthy
+2022-06-21 09:12:46.317 +08:00 [INF] Healthy
+2022-06-21 09:13:16.347 +08:00 [INF] Healthy
+2022-06-21 09:13:46.382 +08:00 [INF] Healthy
+2022-06-21 09:14:16.407 +08:00 [INF] Healthy
+2022-06-21 09:14:46.437 +08:00 [INF] Healthy
+2022-06-21 09:15:16.472 +08:00 [INF] Healthy
+2022-06-21 09:15:46.507 +08:00 [INF] Healthy
+2022-06-21 09:16:16.538 +08:00 [INF] Healthy
+2022-06-21 09:16:46.566 +08:00 [INF] Healthy
+2022-06-21 09:17:16.592 +08:00 [INF] Healthy
+2022-06-21 09:17:46.620 +08:00 [INF] Healthy
+2022-06-21 09:18:16.644 +08:00 [INF] Healthy
+2022-06-21 09:18:46.669 +08:00 [INF] Healthy
+2022-06-21 09:19:16.696 +08:00 [INF] Healthy
+2022-06-21 09:19:46.717 +08:00 [INF] Healthy
+2022-06-21 09:20:16.741 +08:00 [INF] Healthy
+2022-06-21 09:20:46.772 +08:00 [INF] Healthy
+2022-06-21 09:21:16.794 +08:00 [INF] Healthy
+2022-06-21 09:21:46.820 +08:00 [INF] Healthy
+2022-06-21 09:22:16.849 +08:00 [INF] Healthy
+2022-06-21 09:22:46.870 +08:00 [INF] Healthy
+2022-06-21 09:23:16.905 +08:00 [INF] Healthy
+2022-06-21 09:23:46.940 +08:00 [INF] Healthy
+2022-06-21 09:24:16.978 +08:00 [INF] Healthy
+2022-06-21 09:24:47.009 +08:00 [INF] Healthy
+2022-06-21 09:25:17.030 +08:00 [INF] Healthy
+2022-06-21 09:25:47.064 +08:00 [INF] Healthy
+2022-06-21 09:26:17.088 +08:00 [INF] Healthy
+2022-06-21 09:26:47.112 +08:00 [INF] Healthy
+2022-06-21 09:27:17.134 +08:00 [INF] Healthy
+2022-06-21 09:27:47.171 +08:00 [INF] Healthy
+2022-06-21 09:28:17.199 +08:00 [INF] Healthy
+2022-06-21 09:28:47.222 +08:00 [INF] Healthy
+2022-06-21 09:29:17.257 +08:00 [INF] Healthy
+2022-06-21 09:29:47.284 +08:00 [INF] Healthy
+2022-06-21 09:30:17.308 +08:00 [INF] Healthy
+2022-06-21 09:30:47.344 +08:00 [INF] Healthy
+2022-06-21 09:31:17.378 +08:00 [INF] Healthy
+2022-06-21 09:31:47.403 +08:00 [INF] Healthy
+2022-06-21 09:32:17.430 +08:00 [INF] Healthy
+2022-06-21 09:32:47.470 +08:00 [INF] Healthy
+2022-06-21 09:33:17.495 +08:00 [INF] Healthy
+2022-06-21 09:33:47.535 +08:00 [INF] Healthy
+2022-06-21 09:34:17.574 +08:00 [INF] Healthy
+2022-06-21 09:34:47.605 +08:00 [INF] Healthy
+2022-06-21 09:35:17.635 +08:00 [INF] Healthy
+2022-06-21 09:35:47.673 +08:00 [INF] Healthy
+2022-06-21 09:36:17.703 +08:00 [INF] Healthy
+2022-06-21 09:36:47.738 +08:00 [INF] Healthy
+2022-06-21 09:37:17.765 +08:00 [INF] Healthy
+2022-06-21 09:37:47.805 +08:00 [INF] Healthy
+2022-06-21 09:38:17.845 +08:00 [INF] Healthy
+2022-06-21 09:38:47.878 +08:00 [INF] Healthy
+2022-06-21 09:39:17.902 +08:00 [INF] Healthy
+2022-06-21 09:39:47.933 +08:00 [INF] Healthy
+2022-06-21 09:40:17.957 +08:00 [INF] Healthy
+2022-06-21 09:40:47.989 +08:00 [INF] Healthy
+2022-06-21 09:41:18.020 +08:00 [INF] Healthy
+2022-06-21 09:41:48.052 +08:00 [INF] Healthy
+2022-06-21 09:42:18.071 +08:00 [INF] Healthy
+2022-06-21 09:42:48.093 +08:00 [INF] Healthy
+2022-06-21 09:43:18.110 +08:00 [INF] Healthy
+2022-06-21 09:43:48.128 +08:00 [INF] Healthy
+2022-06-21 09:44:18.154 +08:00 [INF] Healthy
+2022-06-21 09:44:48.171 +08:00 [INF] Healthy
+2022-06-21 09:45:18.193 +08:00 [INF] Healthy
+2022-06-21 09:45:48.238 +08:00 [INF] Healthy
+2022-06-21 09:46:18.252 +08:00 [INF] Healthy
+2022-06-21 09:46:48.281 +08:00 [INF] Healthy
+2022-06-21 09:47:18.303 +08:00 [INF] Healthy
+2022-06-21 09:47:48.329 +08:00 [INF] Healthy
+2022-06-21 09:48:18.350 +08:00 [INF] Healthy
+2022-06-21 09:48:48.390 +08:00 [INF] Healthy
+2022-06-21 09:49:18.419 +08:00 [INF] Healthy
+2022-06-21 09:49:48.453 +08:00 [INF] Healthy
+2022-06-21 09:50:18.477 +08:00 [INF] Healthy
+2022-06-21 09:50:48.513 +08:00 [INF] Healthy
+2022-06-21 09:51:18.536 +08:00 [INF] Healthy
+2022-06-21 09:51:48.559 +08:00 [INF] Healthy
+2022-06-21 09:52:18.595 +08:00 [INF] Healthy
+2022-06-21 09:52:48.634 +08:00 [INF] Healthy
+2022-06-21 09:53:18.668 +08:00 [INF] Healthy
+2022-06-21 09:53:48.698 +08:00 [INF] Healthy
+2022-06-21 09:54:18.729 +08:00 [INF] Healthy
+2022-06-21 09:54:48.746 +08:00 [INF] Healthy
+2022-06-21 09:55:18.775 +08:00 [INF] Healthy
+2022-06-21 09:55:48.804 +08:00 [INF] Healthy
+2022-06-21 09:56:18.833 +08:00 [INF] Healthy
+2022-06-21 09:56:48.868 +08:00 [INF] Healthy
+2022-06-21 09:57:18.898 +08:00 [INF] Healthy
+2022-06-21 09:57:48.926 +08:00 [INF] Healthy
+2022-06-21 09:58:18.947 +08:00 [INF] Healthy
+2022-06-21 09:58:48.973 +08:00 [INF] Healthy
+2022-06-21 09:59:18.995 +08:00 [INF] Healthy
+2022-06-21 09:59:49.015 +08:00 [INF] Healthy
+2022-06-21 10:00:19.036 +08:00 [INF] Healthy
+2022-06-21 10:00:49.059 +08:00 [INF] Healthy
+2022-06-21 10:01:19.083 +08:00 [INF] Healthy
+2022-06-21 10:01:49.112 +08:00 [INF] Healthy
+2022-06-21 10:02:19.141 +08:00 [INF] Healthy
+2022-06-21 10:02:49.164 +08:00 [INF] Healthy
+2022-06-21 10:03:19.193 +08:00 [INF] Healthy
+2022-06-21 10:03:49.223 +08:00 [INF] Healthy
+2022-06-21 10:04:19.251 +08:00 [INF] Healthy
+2022-06-21 10:04:49.287 +08:00 [INF] Healthy
+2022-06-21 10:05:19.314 +08:00 [INF] Healthy
+2022-06-21 10:05:49.348 +08:00 [INF] Healthy
+2022-06-21 10:06:19.365 +08:00 [INF] Healthy
+2022-06-21 10:06:49.399 +08:00 [INF] Healthy
+2022-06-21 10:07:19.426 +08:00 [INF] Healthy
+2022-06-21 10:07:49.454 +08:00 [INF] Healthy
+2022-06-21 10:08:19.486 +08:00 [INF] Healthy
+2022-06-21 10:08:49.520 +08:00 [INF] Healthy
+2022-06-21 10:09:19.544 +08:00 [INF] Healthy
+2022-06-21 10:09:49.569 +08:00 [INF] Healthy
+2022-06-21 10:10:19.609 +08:00 [INF] Healthy
+2022-06-21 10:10:49.645 +08:00 [INF] Healthy
+2022-06-21 10:11:19.675 +08:00 [INF] Healthy
+2022-06-21 10:11:49.711 +08:00 [INF] Healthy
+2022-06-21 10:12:19.743 +08:00 [INF] Healthy
+2022-06-21 10:12:49.773 +08:00 [INF] Healthy
+2022-06-21 10:13:19.794 +08:00 [INF] Healthy
+2022-06-21 10:13:49.818 +08:00 [INF] Healthy
+2022-06-21 10:14:19.837 +08:00 [INF] Healthy
+2022-06-21 10:14:49.860 +08:00 [INF] Healthy
+2022-06-21 10:15:19.878 +08:00 [INF] Healthy
+2022-06-21 10:15:49.903 +08:00 [INF] Healthy
+2022-06-21 10:16:19.924 +08:00 [INF] Healthy
+2022-06-21 10:16:49.947 +08:00 [INF] Healthy
+2022-06-21 10:17:19.968 +08:00 [INF] Healthy
+2022-06-21 10:17:49.986 +08:00 [INF] Healthy
+2022-06-21 10:18:20.006 +08:00 [INF] Healthy
+2022-06-21 10:18:50.026 +08:00 [INF] Healthy
+2022-06-21 10:19:20.053 +08:00 [INF] Healthy
+2022-06-21 10:19:50.077 +08:00 [INF] Healthy
+2022-06-21 10:20:20.111 +08:00 [INF] Healthy
+2022-06-21 10:20:50.144 +08:00 [INF] Healthy
+2022-06-21 10:21:20.159 +08:00 [INF] Healthy
+2022-06-21 10:21:50.185 +08:00 [INF] Healthy
+2022-06-21 10:22:20.207 +08:00 [INF] Healthy
+2022-06-21 10:22:50.230 +08:00 [INF] Healthy
+2022-06-21 10:23:20.264 +08:00 [INF] Healthy
+2022-06-21 10:23:50.293 +08:00 [INF] Healthy
+2022-06-21 10:24:20.317 +08:00 [INF] Healthy
+2022-06-21 10:24:50.334 +08:00 [INF] Healthy
+2022-06-21 10:25:20.349 +08:00 [INF] Healthy
+2022-06-21 10:25:50.373 +08:00 [INF] Healthy
+2022-06-21 10:26:20.403 +08:00 [INF] Healthy
+2022-06-21 10:26:50.433 +08:00 [INF] Healthy
+2022-06-21 10:27:20.455 +08:00 [INF] Healthy
+2022-06-21 10:27:50.475 +08:00 [INF] Healthy
+2022-06-21 10:28:20.520 +08:00 [INF] Healthy
+2022-06-21 10:28:50.532 +08:00 [INF] Healthy
+2022-06-21 10:29:20.562 +08:00 [INF] Healthy
+2022-06-21 10:29:50.592 +08:00 [INF] Healthy
+2022-06-21 10:30:20.607 +08:00 [INF] Healthy
+2022-06-21 10:30:50.628 +08:00 [INF] Healthy
+2022-06-21 10:31:20.666 +08:00 [INF] Healthy
+2022-06-21 10:31:50.687 +08:00 [INF] Healthy
+2022-06-21 10:32:20.721 +08:00 [INF] Healthy
+2022-06-21 10:32:50.739 +08:00 [INF] Healthy
+2022-06-21 10:33:20.755 +08:00 [INF] Healthy
+2022-06-21 10:33:50.788 +08:00 [INF] Healthy
+2022-06-21 10:34:20.818 +08:00 [INF] Healthy
+2022-06-21 10:34:50.840 +08:00 [INF] Healthy
+2022-06-21 10:35:20.858 +08:00 [INF] Healthy
+2022-06-21 10:35:50.880 +08:00 [INF] Healthy
+2022-06-21 10:36:20.911 +08:00 [INF] Healthy
+2022-06-21 10:36:50.959 +08:00 [INF] Healthy
+2022-06-21 10:37:20.989 +08:00 [INF] Healthy
+2022-06-21 10:37:51.016 +08:00 [INF] Healthy
+2022-06-21 10:38:21.036 +08:00 [INF] Healthy
+2022-06-21 10:38:51.061 +08:00 [INF] Healthy
+2022-06-21 10:39:21.090 +08:00 [INF] Healthy
+2022-06-21 10:39:51.107 +08:00 [INF] Healthy
+2022-06-21 10:40:21.140 +08:00 [INF] Healthy
+2022-06-21 10:40:51.159 +08:00 [INF] Healthy
+2022-06-21 10:41:21.196 +08:00 [INF] Healthy
+2022-06-21 10:41:51.238 +08:00 [INF] Healthy
+2022-06-21 10:42:21.276 +08:00 [INF] Healthy
+2022-06-21 10:42:51.295 +08:00 [INF] Healthy
+2022-06-21 10:43:21.329 +08:00 [INF] Healthy
+2022-06-21 10:43:51.355 +08:00 [INF] Healthy
+2022-06-21 10:44:21.382 +08:00 [INF] Healthy
+2022-06-21 10:44:51.408 +08:00 [INF] Healthy
+2022-06-21 10:45:21.431 +08:00 [INF] Healthy
+2022-06-21 10:45:51.465 +08:00 [INF] Healthy
+2022-06-21 10:46:21.490 +08:00 [INF] Healthy
+2022-06-21 10:46:51.507 +08:00 [INF] Healthy
+2022-06-21 10:47:21.541 +08:00 [INF] Healthy
+2022-06-21 10:47:51.559 +08:00 [INF] Healthy
+2022-06-21 10:48:21.589 +08:00 [INF] Healthy
+2022-06-21 10:48:51.610 +08:00 [INF] Healthy
+2022-06-21 10:49:21.627 +08:00 [INF] Healthy
+2022-06-21 10:49:51.657 +08:00 [INF] Healthy
+2022-06-21 10:50:21.676 +08:00 [INF] Healthy
+2022-06-21 10:50:51.707 +08:00 [INF] Healthy
+2022-06-21 10:51:21.753 +08:00 [INF] Healthy
+2022-06-21 10:51:51.774 +08:00 [INF] Healthy
+2022-06-21 10:52:21.802 +08:00 [INF] Healthy
+2022-06-21 10:52:51.818 +08:00 [INF] Healthy
+2022-06-21 10:53:21.854 +08:00 [INF] Healthy
+2022-06-21 10:53:51.876 +08:00 [INF] Healthy
+2022-06-21 10:54:21.907 +08:00 [INF] Healthy
+2022-06-21 10:54:51.933 +08:00 [INF] Healthy
+2022-06-21 10:55:21.952 +08:00 [INF] Healthy
+2022-06-21 10:55:51.974 +08:00 [INF] Healthy
+2022-06-21 10:56:22.004 +08:00 [INF] Healthy
+2022-06-21 10:56:52.040 +08:00 [INF] Healthy
+2022-06-21 10:57:22.065 +08:00 [INF] Healthy
+2022-06-21 10:57:52.099 +08:00 [INF] Healthy
+2022-06-21 10:58:22.116 +08:00 [INF] Healthy
+2022-06-21 10:58:52.141 +08:00 [INF] Healthy
+2022-06-21 10:59:22.173 +08:00 [INF] Healthy
+2022-06-21 10:59:52.196 +08:00 [INF] Healthy
+2022-06-21 11:00:22.211 +08:00 [INF] Healthy
+2022-06-21 11:00:52.228 +08:00 [INF] Healthy
+2022-06-21 11:01:22.251 +08:00 [INF] Healthy
+2022-06-21 11:01:52.277 +08:00 [INF] Healthy
+2022-06-21 11:02:22.307 +08:00 [INF] Healthy
+2022-06-21 11:02:52.319 +08:00 [INF] Healthy
+2022-06-21 11:03:22.341 +08:00 [INF] Healthy
+2022-06-21 11:03:52.361 +08:00 [INF] Healthy
+2022-06-21 11:04:22.383 +08:00 [INF] Healthy
+2022-06-21 11:04:52.418 +08:00 [INF] Healthy
+2022-06-21 11:05:22.443 +08:00 [INF] Healthy
+2022-06-21 11:05:52.457 +08:00 [INF] Healthy
+2022-06-21 11:06:22.516 +08:00 [INF] Healthy
+2022-06-21 11:06:52.542 +08:00 [INF] Healthy
+2022-06-21 11:07:22.566 +08:00 [INF] Healthy
+2022-06-21 11:07:52.596 +08:00 [INF] Healthy
+2022-06-21 11:08:22.627 +08:00 [INF] Healthy
+2022-06-21 11:08:52.656 +08:00 [INF] Healthy
+2022-06-21 11:09:22.692 +08:00 [INF] Healthy
+2022-06-21 11:09:52.717 +08:00 [INF] Healthy
+2022-06-21 11:10:22.748 +08:00 [INF] Healthy
+2022-06-21 11:10:52.784 +08:00 [INF] Healthy
+2022-06-21 11:11:22.821 +08:00 [INF] Healthy
+2022-06-21 11:11:52.883 +08:00 [INF] Healthy
+2022-06-21 11:12:22.918 +08:00 [INF] Healthy
+2022-06-21 11:12:52.947 +08:00 [INF] Healthy
+2022-06-21 11:13:22.976 +08:00 [INF] Healthy
+2022-06-21 11:13:53.002 +08:00 [INF] Healthy
+2022-06-21 11:14:23.022 +08:00 [INF] Healthy
+2022-06-21 11:14:53.047 +08:00 [INF] Healthy
+2022-06-21 11:15:23.072 +08:00 [INF] Healthy
+2022-06-21 11:15:53.089 +08:00 [INF] Healthy
+2022-06-21 11:16:23.112 +08:00 [INF] Healthy
+2022-06-21 11:16:53.128 +08:00 [INF] Healthy
+2022-06-21 11:17:23.181 +08:00 [INF] Healthy
+2022-06-21 11:17:53.225 +08:00 [INF] Healthy
+2022-06-21 11:18:23.244 +08:00 [INF] Healthy
+2022-06-21 11:18:53.265 +08:00 [INF] Healthy
+2022-06-21 11:19:23.286 +08:00 [INF] Healthy
+2022-06-21 11:19:53.300 +08:00 [INF] Healthy
+2022-06-21 11:20:23.317 +08:00 [INF] Healthy
+2022-06-21 11:20:53.332 +08:00 [INF] Healthy
+2022-06-21 11:21:23.344 +08:00 [INF] Healthy
+2022-06-21 11:21:53.377 +08:00 [INF] Healthy
+2022-06-21 11:22:23.396 +08:00 [INF] Healthy
+2022-06-21 11:22:53.413 +08:00 [INF] Healthy
+2022-06-21 11:23:23.423 +08:00 [INF] Healthy
+2022-06-21 11:23:53.448 +08:00 [INF] Healthy
+2022-06-21 11:24:23.465 +08:00 [INF] Healthy
+2022-06-21 11:24:53.492 +08:00 [INF] Healthy
+2022-06-21 11:25:23.524 +08:00 [INF] Healthy
+2022-06-21 11:25:53.557 +08:00 [INF] Healthy
+2022-06-21 11:26:23.577 +08:00 [INF] Healthy
+2022-06-21 11:26:53.597 +08:00 [INF] Healthy
+2022-06-21 11:27:23.618 +08:00 [INF] Healthy
+2022-06-21 11:27:53.688 +08:00 [INF] Healthy
+2022-06-21 11:28:23.707 +08:00 [INF] Healthy
+2022-06-21 11:28:53.721 +08:00 [INF] Healthy
+2022-06-21 11:29:23.748 +08:00 [INF] Healthy
+2022-06-21 11:29:53.775 +08:00 [INF] Healthy
+2022-06-21 11:30:23.801 +08:00 [INF] Healthy
+2022-06-21 11:30:53.828 +08:00 [INF] Healthy
+2022-06-21 11:31:23.851 +08:00 [INF] Healthy
+2022-06-21 11:31:53.878 +08:00 [INF] Healthy
+2022-06-21 11:32:23.897 +08:00 [INF] Healthy
+2022-06-21 11:32:53.923 +08:00 [INF] Healthy
+2022-06-21 11:33:23.954 +08:00 [INF] Healthy
+2022-06-21 11:33:53.977 +08:00 [INF] Healthy
+2022-06-21 11:34:24.000 +08:00 [INF] Healthy
+2022-06-21 11:34:54.028 +08:00 [INF] Healthy
+2022-06-21 11:35:24.059 +08:00 [INF] Healthy
+2022-06-21 11:35:54.078 +08:00 [INF] Healthy
+2022-06-21 11:36:24.091 +08:00 [INF] Healthy
+2022-06-21 11:36:54.116 +08:00 [INF] Healthy
+2022-06-21 11:37:24.155 +08:00 [INF] Healthy
+2022-06-21 11:37:54.184 +08:00 [INF] Healthy
+2022-06-21 11:38:24.206 +08:00 [INF] Healthy
+2022-06-21 11:38:54.221 +08:00 [INF] Healthy
+2022-06-21 11:39:24.256 +08:00 [INF] Healthy
+2022-06-21 11:39:54.278 +08:00 [INF] Healthy
+2022-06-21 11:40:24.301 +08:00 [INF] Healthy
+2022-06-21 11:40:54.324 +08:00 [INF] Healthy
+2022-06-21 11:41:24.352 +08:00 [INF] Healthy
+2022-06-21 11:41:54.372 +08:00 [INF] Healthy
+2022-06-21 11:42:24.395 +08:00 [INF] Healthy
+2022-06-21 11:42:54.413 +08:00 [INF] Healthy
+2022-06-21 11:43:24.434 +08:00 [INF] Healthy
+2022-06-21 11:43:54.458 +08:00 [INF] Healthy
+2022-06-21 11:44:24.485 +08:00 [INF] Healthy
+2022-06-21 11:44:54.499 +08:00 [INF] Healthy
+2022-06-21 11:45:24.534 +08:00 [INF] Healthy
+2022-06-21 11:45:54.578 +08:00 [INF] Healthy
+2022-06-21 11:46:24.597 +08:00 [INF] Healthy
+2022-06-21 11:46:54.616 +08:00 [INF] Healthy
+2022-06-21 11:47:24.629 +08:00 [INF] Healthy
+2022-06-21 11:47:54.660 +08:00 [INF] Healthy
+2022-06-21 11:48:24.691 +08:00 [INF] Healthy
+2022-06-21 11:48:54.711 +08:00 [INF] Healthy
+2022-06-21 11:49:24.732 +08:00 [INF] Healthy
+2022-06-21 11:49:54.756 +08:00 [INF] Healthy
+2022-06-21 11:50:24.775 +08:00 [INF] Healthy
+2022-06-21 11:50:54.798 +08:00 [INF] Healthy
+2022-06-21 11:51:24.811 +08:00 [INF] Healthy
+2022-06-21 11:51:54.831 +08:00 [INF] Healthy
+2022-06-21 11:52:24.849 +08:00 [INF] Healthy
+2022-06-21 11:52:54.868 +08:00 [INF] Healthy
+2022-06-21 11:53:24.897 +08:00 [INF] Healthy
+2022-06-21 11:53:54.915 +08:00 [INF] Healthy
+2022-06-21 11:54:24.959 +08:00 [INF] Healthy
+2022-06-21 11:54:54.975 +08:00 [INF] Healthy
+2022-06-21 11:55:24.988 +08:00 [INF] Healthy
+2022-06-21 11:55:55.014 +08:00 [INF] Healthy
+2022-06-21 11:56:25.039 +08:00 [INF] Healthy
+2022-06-21 11:56:55.064 +08:00 [INF] Healthy
+2022-06-21 11:57:25.095 +08:00 [INF] Healthy
+2022-06-21 11:57:55.117 +08:00 [INF] Healthy
+2022-06-21 11:58:25.133 +08:00 [INF] Healthy
+2022-06-21 11:58:55.149 +08:00 [INF] Healthy
+2022-06-21 11:59:25.173 +08:00 [INF] Healthy
+2022-06-21 11:59:55.191 +08:00 [INF] Healthy
+2022-06-21 12:00:25.224 +08:00 [INF] Healthy
+2022-06-21 12:00:55.266 +08:00 [INF] Healthy
+2022-06-21 12:01:25.301 +08:00 [INF] Healthy
+2022-06-21 12:01:55.430 +08:00 [INF] Healthy
+2022-06-21 12:02:25.459 +08:00 [INF] Healthy
+2022-06-21 12:02:55.499 +08:00 [INF] Healthy
+2022-06-21 12:03:25.535 +08:00 [INF] Healthy
+2022-06-21 12:03:55.558 +08:00 [INF] Healthy
+2022-06-21 12:04:25.592 +08:00 [INF] Healthy
+2022-06-21 12:04:55.615 +08:00 [INF] Healthy
+2022-06-21 12:05:25.634 +08:00 [INF] Healthy
+2022-06-21 12:05:55.658 +08:00 [INF] Healthy
+2022-06-21 12:06:25.681 +08:00 [INF] Healthy
+2022-06-21 12:06:55.715 +08:00 [INF] Healthy
+2022-06-21 12:07:25.741 +08:00 [INF] Healthy
+2022-06-21 12:07:55.769 +08:00 [INF] Healthy
+2022-06-21 12:08:25.794 +08:00 [INF] Healthy
+2022-06-21 12:08:55.823 +08:00 [INF] Healthy
+2022-06-21 12:09:25.847 +08:00 [INF] Healthy
+2022-06-21 12:09:55.867 +08:00 [INF] Healthy
+2022-06-21 12:10:25.889 +08:00 [INF] Healthy
+2022-06-21 12:10:55.916 +08:00 [INF] Healthy
+2022-06-21 12:11:25.941 +08:00 [INF] Healthy
+2022-06-21 12:11:55.957 +08:00 [INF] Healthy
+2022-06-21 12:12:25.974 +08:00 [INF] Healthy
+2022-06-21 12:12:55.989 +08:00 [INF] Healthy
+2022-06-21 12:13:26.014 +08:00 [INF] Healthy
+2022-06-21 12:13:56.043 +08:00 [INF] Healthy
+2022-06-21 12:14:26.073 +08:00 [INF] Healthy
+2022-06-21 12:14:56.094 +08:00 [INF] Healthy
+2022-06-21 12:15:26.125 +08:00 [INF] Healthy
+2022-06-21 12:15:56.148 +08:00 [INF] Healthy
+2022-06-21 12:16:26.171 +08:00 [INF] Healthy
+2022-06-21 12:16:56.209 +08:00 [INF] Healthy
+2022-06-21 12:17:26.230 +08:00 [INF] Healthy
+2022-06-21 12:17:56.251 +08:00 [INF] Healthy
+2022-06-21 12:18:26.271 +08:00 [INF] Healthy
+2022-06-21 12:18:56.287 +08:00 [INF] Healthy
+2022-06-21 12:19:26.311 +08:00 [INF] Healthy
+2022-06-21 12:19:56.324 +08:00 [INF] Healthy
+2022-06-21 12:20:26.342 +08:00 [INF] Healthy
+2022-06-21 12:20:56.364 +08:00 [INF] Healthy
+2022-06-21 12:21:26.393 +08:00 [INF] Healthy
+2022-06-21 12:21:56.427 +08:00 [INF] Healthy
+2022-06-21 12:22:26.450 +08:00 [INF] Healthy
+2022-06-21 12:22:56.474 +08:00 [INF] Healthy
+2022-06-21 12:23:26.495 +08:00 [INF] Healthy
+2022-06-21 12:23:56.522 +08:00 [INF] Healthy
+2022-06-21 12:24:26.545 +08:00 [INF] Healthy
+2022-06-21 12:24:56.573 +08:00 [INF] Healthy
+2022-06-21 12:25:26.601 +08:00 [INF] Healthy
+2022-06-21 12:25:56.637 +08:00 [INF] Healthy
+2022-06-21 12:26:26.676 +08:00 [INF] Healthy
+2022-06-21 12:26:56.690 +08:00 [INF] Healthy
+2022-06-21 12:27:26.703 +08:00 [INF] Healthy
+2022-06-21 12:27:56.747 +08:00 [INF] Healthy
+2022-06-21 12:28:26.773 +08:00 [INF] Healthy
+2022-06-21 12:28:56.800 +08:00 [INF] Healthy
+2022-06-21 12:29:26.818 +08:00 [INF] Healthy
+2022-06-21 12:29:56.842 +08:00 [INF] Healthy
+2022-06-21 12:30:26.872 +08:00 [INF] Healthy
+2022-06-21 12:30:56.892 +08:00 [INF] Healthy
+2022-06-21 12:31:26.912 +08:00 [INF] Healthy
+2022-06-21 12:31:56.934 +08:00 [INF] Healthy
+2022-06-21 12:32:26.948 +08:00 [INF] Healthy
+2022-06-21 12:32:56.985 +08:00 [INF] Healthy
+2022-06-21 12:33:27.003 +08:00 [INF] Healthy
+2022-06-21 12:33:57.033 +08:00 [INF] Healthy
+2022-06-21 12:34:27.048 +08:00 [INF] Healthy
+2022-06-21 12:34:57.083 +08:00 [INF] Healthy
+2022-06-21 12:35:27.100 +08:00 [INF] Healthy
+2022-06-21 12:35:57.119 +08:00 [INF] Healthy
+2022-06-21 12:36:27.131 +08:00 [INF] Healthy
+2022-06-21 12:36:57.166 +08:00 [INF] Healthy
+2022-06-21 12:37:27.191 +08:00 [INF] Healthy
+2022-06-21 12:37:57.218 +08:00 [INF] Healthy
+2022-06-21 12:38:27.239 +08:00 [INF] Healthy
+2022-06-21 12:38:57.265 +08:00 [INF] Healthy
+2022-06-21 12:39:27.291 +08:00 [INF] Healthy
+2022-06-21 12:39:57.319 +08:00 [INF] Healthy
+2022-06-21 12:40:27.351 +08:00 [INF] Healthy
+2022-06-21 12:40:57.381 +08:00 [INF] Healthy
+2022-06-21 12:41:27.404 +08:00 [INF] Healthy
+2022-06-21 12:41:57.432 +08:00 [INF] Healthy
+2022-06-21 12:42:27.462 +08:00 [INF] Healthy
+2022-06-21 12:42:57.492 +08:00 [INF] Healthy
+2022-06-21 12:43:27.517 +08:00 [INF] Healthy
+2022-06-21 12:43:57.543 +08:00 [INF] Healthy
+2022-06-21 12:44:27.563 +08:00 [INF] Healthy
+2022-06-21 12:44:57.596 +08:00 [INF] Healthy
+2022-06-21 12:45:27.620 +08:00 [INF] Healthy
+2022-06-21 12:45:57.641 +08:00 [INF] Healthy
+2022-06-21 12:46:27.654 +08:00 [INF] Healthy
+2022-06-21 12:46:57.677 +08:00 [INF] Healthy
+2022-06-21 12:47:27.711 +08:00 [INF] Healthy
+2022-06-21 12:47:57.729 +08:00 [INF] Healthy
+2022-06-21 12:48:27.745 +08:00 [INF] Healthy
+2022-06-21 12:48:57.782 +08:00 [INF] Healthy
+2022-06-21 12:49:27.808 +08:00 [INF] Healthy
+2022-06-21 12:49:57.825 +08:00 [INF] Healthy
+2022-06-21 12:50:27.841 +08:00 [INF] Healthy
+2022-06-21 12:50:57.869 +08:00 [INF] Healthy
+2022-06-21 12:51:27.888 +08:00 [INF] Healthy
+2022-06-21 12:51:57.917 +08:00 [INF] Healthy
+2022-06-21 12:52:27.937 +08:00 [INF] Healthy
+2022-06-21 12:52:57.966 +08:00 [INF] Healthy
+2022-06-21 12:53:27.993 +08:00 [INF] Healthy
+2022-06-21 12:53:58.011 +08:00 [INF] Healthy
+2022-06-21 12:54:28.038 +08:00 [INF] Healthy
+2022-06-21 12:54:58.060 +08:00 [INF] Healthy
+2022-06-21 12:55:28.095 +08:00 [INF] Healthy
+2022-06-21 12:55:58.123 +08:00 [INF] Healthy
+2022-06-21 12:56:28.141 +08:00 [INF] Healthy
+2022-06-21 12:56:58.165 +08:00 [INF] Healthy
+2022-06-21 12:57:28.183 +08:00 [INF] Healthy
+2022-06-21 12:57:58.210 +08:00 [INF] Healthy
+2022-06-21 12:58:28.235 +08:00 [INF] Healthy
+2022-06-21 12:58:58.251 +08:00 [INF] Healthy
+2022-06-21 12:59:28.272 +08:00 [INF] Healthy
+2022-06-21 12:59:58.291 +08:00 [INF] Healthy
+2022-06-21 13:00:28.306 +08:00 [INF] Healthy
+2022-06-21 13:00:58.324 +08:00 [INF] Healthy
+2022-06-21 13:01:28.348 +08:00 [INF] Healthy
+2022-06-21 13:01:58.373 +08:00 [INF] Healthy
+2022-06-21 13:02:28.404 +08:00 [INF] Healthy
+2022-06-21 13:02:58.423 +08:00 [INF] Healthy
+2022-06-21 13:03:28.442 +08:00 [INF] Healthy
+2022-06-21 13:03:58.461 +08:00 [INF] Healthy
+2022-06-21 13:04:28.477 +08:00 [INF] Healthy
+2022-06-21 13:04:58.511 +08:00 [INF] Healthy
+2022-06-21 13:05:28.525 +08:00 [INF] Healthy
+2022-06-21 13:05:58.541 +08:00 [INF] Healthy
+2022-06-21 13:06:28.557 +08:00 [INF] Healthy
+2022-06-21 13:06:58.585 +08:00 [INF] Healthy
+2022-06-21 13:07:28.609 +08:00 [INF] Healthy
+2022-06-21 13:07:58.624 +08:00 [INF] Healthy
+2022-06-21 13:08:28.648 +08:00 [INF] Healthy
+2022-06-21 13:08:58.670 +08:00 [INF] Healthy
+2022-06-21 13:09:28.690 +08:00 [INF] Healthy
+2022-06-21 13:09:58.708 +08:00 [INF] Healthy
+2022-06-21 13:10:28.730 +08:00 [INF] Healthy
+2022-06-21 13:10:58.768 +08:00 [INF] Healthy
+2022-06-21 13:11:28.784 +08:00 [INF] Healthy
+2022-06-21 13:11:58.809 +08:00 [INF] Healthy
+2022-06-21 13:12:28.832 +08:00 [INF] Healthy
+2022-06-21 13:12:58.864 +08:00 [INF] Healthy
+2022-06-21 13:13:28.896 +08:00 [INF] Healthy
+2022-06-21 13:13:58.919 +08:00 [INF] Healthy
+2022-06-21 13:14:28.948 +08:00 [INF] Healthy
+2022-06-21 13:14:58.965 +08:00 [INF] Healthy
+2022-06-21 13:15:28.993 +08:00 [INF] Healthy
+2022-06-21 13:15:59.014 +08:00 [INF] Healthy
+2022-06-21 13:16:29.035 +08:00 [INF] Healthy
+2022-06-21 13:16:59.057 +08:00 [INF] Healthy
+2022-06-21 13:17:29.085 +08:00 [INF] Healthy
+2022-06-21 13:17:59.112 +08:00 [INF] Healthy
+2022-06-21 13:18:29.135 +08:00 [INF] Healthy
+2022-06-21 13:18:59.160 +08:00 [INF] Healthy
+2022-06-21 13:19:29.172 +08:00 [INF] Healthy
+2022-06-21 13:19:59.202 +08:00 [INF] Healthy
+2022-06-21 13:20:29.213 +08:00 [INF] Healthy
+2022-06-21 13:20:59.239 +08:00 [INF] Healthy
+2022-06-21 13:21:29.266 +08:00 [INF] Healthy
+2022-06-21 13:21:59.294 +08:00 [INF] Healthy
+2022-06-21 13:22:29.312 +08:00 [INF] Healthy
+2022-06-21 13:22:59.335 +08:00 [INF] Healthy
+2022-06-21 13:23:29.354 +08:00 [INF] Healthy
+2022-06-21 13:23:59.378 +08:00 [INF] Healthy
+2022-06-21 13:24:29.413 +08:00 [INF] Healthy
+2022-06-21 13:24:59.440 +08:00 [INF] Healthy
+2022-06-21 13:25:29.464 +08:00 [INF] Healthy
+2022-06-21 13:25:59.493 +08:00 [INF] Healthy
+2022-06-21 13:26:29.509 +08:00 [INF] Healthy
+2022-06-21 13:26:59.523 +08:00 [INF] Healthy
+2022-06-21 13:27:29.546 +08:00 [INF] Healthy
+2022-06-21 13:27:59.570 +08:00 [INF] Healthy
+2022-06-21 13:28:29.603 +08:00 [INF] Healthy
+2022-06-21 13:28:59.630 +08:00 [INF] Healthy
+2022-06-21 13:29:29.671 +08:00 [INF] Healthy
+2022-06-21 13:29:59.702 +08:00 [INF] Healthy
+2022-06-21 13:30:29.727 +08:00 [INF] Healthy
+2022-06-21 13:30:59.742 +08:00 [INF] Healthy
+2022-06-21 13:31:29.762 +08:00 [INF] Healthy
+2022-06-21 13:31:59.790 +08:00 [INF] Healthy
+2022-06-21 13:32:29.808 +08:00 [INF] Healthy
+2022-06-21 13:32:59.818 +08:00 [INF] Healthy
+2022-06-21 13:33:29.839 +08:00 [INF] Healthy
+2022-06-21 13:33:59.861 +08:00 [INF] Healthy
+2022-06-21 13:34:29.880 +08:00 [INF] Healthy
+2022-06-21 13:34:59.910 +08:00 [INF] Healthy
+2022-06-21 13:35:29.934 +08:00 [INF] Healthy
+2022-06-21 13:35:59.946 +08:00 [INF] Healthy
+2022-06-21 13:36:29.975 +08:00 [INF] Healthy
+2022-06-21 13:37:00.002 +08:00 [INF] Healthy
+2022-06-21 13:37:30.025 +08:00 [INF] Healthy
+2022-06-21 13:38:00.059 +08:00 [INF] Healthy
+2022-06-21 13:38:30.090 +08:00 [INF] Healthy
+2022-06-21 13:39:00.123 +08:00 [INF] Healthy
+2022-06-21 13:39:30.157 +08:00 [INF] Healthy
+2022-06-21 13:40:00.175 +08:00 [INF] Healthy
+2022-06-21 13:40:30.203 +08:00 [INF] Healthy
+2022-06-21 13:41:00.221 +08:00 [INF] Healthy
+2022-06-21 13:41:30.241 +08:00 [INF] Healthy
+2022-06-21 13:42:00.269 +08:00 [INF] Healthy
+2022-06-21 13:42:30.293 +08:00 [INF] Healthy
+2022-06-21 13:43:00.306 +08:00 [INF] Healthy
+2022-06-21 13:43:30.321 +08:00 [INF] Healthy
+2022-06-21 13:44:00.343 +08:00 [INF] Healthy
+2022-06-21 13:44:30.373 +08:00 [INF] Healthy
+2022-06-21 13:45:00.394 +08:00 [INF] Healthy
+2022-06-21 13:45:30.419 +08:00 [INF] Healthy
+2022-06-21 13:46:00.463 +08:00 [INF] Healthy
+2022-06-21 13:46:30.478 +08:00 [INF] Healthy
+2022-06-21 13:47:00.495 +08:00 [INF] Healthy
+2022-06-21 13:47:30.517 +08:00 [INF] Healthy
+2022-06-21 13:48:00.551 +08:00 [INF] Healthy
+2022-06-21 13:48:30.575 +08:00 [INF] Healthy
+2022-06-21 13:49:00.593 +08:00 [INF] Healthy
+2022-06-21 13:49:30.612 +08:00 [INF] Healthy
+2022-06-21 13:50:00.634 +08:00 [INF] Healthy
+2022-06-21 13:50:30.662 +08:00 [INF] Healthy
+2022-06-21 13:51:00.691 +08:00 [INF] Healthy
+2022-06-21 13:51:30.718 +08:00 [INF] Healthy
+2022-06-21 13:52:00.755 +08:00 [INF] Healthy
+2022-06-21 13:52:30.786 +08:00 [INF] Healthy
+2022-06-21 13:53:00.817 +08:00 [INF] Healthy
+2022-06-21 13:53:30.832 +08:00 [INF] Healthy
+2022-06-21 13:54:00.857 +08:00 [INF] Healthy
+2022-06-21 13:54:30.886 +08:00 [INF] Healthy
+2022-06-21 13:55:00.911 +08:00 [INF] Healthy
+2022-06-21 13:55:30.941 +08:00 [INF] Healthy
+2022-06-21 13:56:00.958 +08:00 [INF] Healthy
+2022-06-21 13:56:30.989 +08:00 [INF] Healthy
+2022-06-21 13:57:01.013 +08:00 [INF] Healthy
+2022-06-21 13:57:31.044 +08:00 [INF] Healthy
+2022-06-21 13:58:01.060 +08:00 [INF] Healthy
+2022-06-21 13:58:31.076 +08:00 [INF] Healthy
+2022-06-21 13:59:01.106 +08:00 [INF] Healthy
+2022-06-21 13:59:31.137 +08:00 [INF] Healthy
+2022-06-21 14:00:01.172 +08:00 [INF] Healthy
+2022-06-21 14:00:31.186 +08:00 [INF] Healthy
+2022-06-21 14:01:01.209 +08:00 [INF] Healthy
+2022-06-21 14:01:55.423 +08:00 [INF] Healthy
+2022-06-21 14:02:25.449 +08:00 [INF] Healthy
+2022-06-21 14:02:55.479 +08:00 [INF] Healthy
+2022-06-21 14:03:25.519 +08:00 [INF] Healthy
+2022-06-21 14:03:55.542 +08:00 [INF] Healthy
+2022-06-21 14:04:25.573 +08:00 [INF] Healthy
+2022-06-21 14:04:55.605 +08:00 [INF] Healthy
+2022-06-21 14:05:25.638 +08:00 [INF] Healthy
+2022-06-21 14:05:55.668 +08:00 [INF] Healthy
+2022-06-21 14:06:25.688 +08:00 [INF] Healthy
+2022-06-21 14:06:55.713 +08:00 [INF] Healthy
+2022-06-21 14:07:25.743 +08:00 [INF] Healthy
+2022-06-21 14:07:55.773 +08:00 [INF] Healthy
+2022-06-21 14:08:25.798 +08:00 [INF] Healthy
+2022-06-21 14:08:55.831 +08:00 [INF] Healthy
+2022-06-21 14:09:25.867 +08:00 [INF] Healthy
+2022-06-21 14:09:55.905 +08:00 [INF] Healthy
+2022-06-21 14:10:25.940 +08:00 [INF] Healthy
